@@ -13,6 +13,7 @@ The complete environment can be found in `environment.yml`.
 
 ## Dataset
 We provide four samples for each of the two models for testing, located in `./degradation/dataset` and `./Real-MSBDE/dataset`.
+- Note: this is real-world image BDE, so all datasets provided, are real 8-bit and real 16-bit.
 
 ## Models
 The weights of two models are located in `./degradation/weights` and `./Real-MSBDE/weights`.
@@ -36,7 +37,9 @@ Real-MSBDE
 - main.py
 ```
 
-You can find the results of two models in `./degradation/test_results` and `./Real-MSBDE/test_results`
+You can find the outputs of two models in `./degradation/test_results` and `./Real-MSBDE/test_results`
+
+
 
 ## Acknowledgement
 - Thanks to *Sung-Jin Cho, et al.*, who are authors of "Rethinking coarse-to-fine approach in single image deblurring", published in the Proceedings of the IEEE/CVF international conference on computer vision, for referring to their outstanding work.
