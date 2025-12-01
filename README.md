@@ -36,6 +36,7 @@ Real-MSBDE
 - main.py
 ```
 
+You can find the results of two models in `./degradation/test_results` and `./Real-MSBDE/test_results`
 
 ## Acknowledgement
 - Thanks to *Sung-Jin Cho, et al.*, who are authors of "Rethinking coarse-to-fine approach in single image deblurring", published in the Proceedings of the IEEE/CVF international conference on computer vision, for referring to their outstanding work.
