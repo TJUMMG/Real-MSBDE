@@ -8,7 +8,7 @@ Our model is tested on Ubuntu with the following environments:
 - pytorch==1.8.0
 - tensorflow==1.9.0
 
-The complete environment can be found in environment.yml
+The complete environment can be found in `environment.yml`.
 
 
 ## Dataset
@@ -18,22 +18,22 @@ We provide four samples for each of the two models for testing, located in `./de
 The weights of two models are located in `./degradation/weights` and `./Real-MSBDE/weights`.
 
 ## Test
-For the classification-based degradation model, the model input is the quantization part and the residual part of the HBD image, so the HBD image is first divided into two parts by running-
+For the classification-based degradation model, the model input is the quantization part and the residual part of the HBD image, so the HBD image is first divided into two parts by running
 ```
 degradation
 - to_res.py
 ```
 
-Then, the LBD image is obtained by running-
+Then, the LBD image is obtained by running
 ```
 degradation
 - test.py
 ```
 
-For the bit-depth enhancement model Real-MSBDE, you can run-
+For the bit-depth enhancement model Real-MSBDE, you can run
 ```
 Real-MSBDE
-├─ main.py
+- main.py
 ```
 
 
