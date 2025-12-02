@@ -42,4 +42,4 @@ You can find the outputs of two models in `./degradation/test_results` and `./Re
 
 
 ## Acknowledgement
-- Thanks to *Sung-Jin Cho, et al.*, who are authors of "Rethinking coarse-to-fine approach in single image deblurring", published in the Proceedings of the IEEE/CVF international conference on computer vision, for referring to their outstanding work.
+- Thanks to *Sung-Jin Cho et al.* , who are authors of "Rethinking coarse-to-fine approach in single image deblurring", published in the Proceedings of the IEEE/CVF international conference on computer vision, for referring to their outstanding work.
