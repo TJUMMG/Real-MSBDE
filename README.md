@@ -1,6 +1,6 @@
 # Real-MSBDE: Real-World Image Bit-Depth Enhancement
 This repository provides two models (the classification-based degradation model and the bit-depth enhancement model Real-MSBDE) of "Real-World Image Bit-Depth Enhancement".
-- If you use this code, please cite the following publication: Y.Gang, J.Liu, P.Jing, H.Duan, and G.Zhai, "Real-World Image Bit-Depth Enhancement".
+- If you use this code, please cite the following publication: Y. Gang, J. Liu, P. Jing, H. Duan, and G. Zhai, "Real-World Image Bit-Depth Enhancement".
 
 ## Environment
 Our model is tested on Ubuntu with the following environments:
